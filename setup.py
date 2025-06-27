@@ -12,21 +12,21 @@ requirements = [
     "matplotlib",
     "numba",
     "numpy",
-    "open_clip_torch==2.24.*",
+    "open_clip_torch>=2.24",
     "pandas",
     "regex",
     "scikit-image",
     "scikit-learn",
     "scipy",
-    "tensorflow==2.9.* ; sys_platform != 'darwin' or platform_machine != 'arm64'",
-    "tensorflow-macos==2.9.* ; sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "tensorflow>=2.9 ; sys_platform != 'darwin' or platform_machine != 'arm64'",    
+    "tensorflow-macos>=2.9 ; sys_platform == 'darwin' and platform_machine == 'arm64'",
     "timm",
     "torch>=2.0.0",
-    "torchvision==0.15.2",
+    "torchvision>=0.15.2",
     "torchtyping",
     "tqdm",
     "CLIP",
-    "transformers==4.40.1"
+    "transformers>=4.40.1"
     # 'CLIP @ git+ssh://git@github.com/openai/CLIP@v1.0#egg=CLIP' # TODO: see issue #111
 ]
 
